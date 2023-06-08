@@ -1,0 +1,36 @@
+@model List<JobDto>
+<div >
+    <button style="padding: 10px; margin: 20px; width: 100px"><a href="/Job">ListJob</a></button>
+    <button style="padding: 10px; margin-right: auto; width: 100px"><a href="/Job/Create">Create</a></button>
+</div>
+<hr>
+
+
+<h2 class="text-center">The list of Jobs</h2>
+<table class="table"/>
+<thead>
+<tr>
+    <th scope="col">#</th>
+    <th scope="col">Title</th>
+    <th scope="col">ClosingData</th>
+    <th scope="col">CategoryId</th>
+    <th scope="col">City</th>
+    <th scope="col">Text</th>
+    <th scope="col">Edit</th>
+    <th scope="col">Delete</th>
+</tr>
+</thead>
+<tbody>
+@foreach (var job in Model)
+{
+    <tr>
+        <th scope="row">@job.Id</th>
+        <td>@job.Title</td>
+        <td>@job.ClosingData</td>
+        <td>@job.CategoryId</td>
+        <td>@job.City</td>
+        <td>@job.Text</td>
+        <td><a href="/Job/Update/@job.Id">Edit</a></td>
+        <td><a href="/Job/Delete/@job.Id">Delete</a></td>
+    </tr>
+}

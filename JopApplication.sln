@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# 
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infrastructure", "Infrastructure\Infrastructure.csproj", "{83AA1851-4B04-4824-9437-228EEDC28ADF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain", "Domain\Domain.csproj", "{918D3F24-E646-4ABB-973F-355AAE76B07B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVCApp", "MVCApp\MVCApp.csproj", "{A8DC48B7-D976-4A44-90E7-743763687737}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{83AA1851-4B04-4824-9437-228EEDC28ADF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{83AA1851-4B04-4824-9437-228EEDC28ADF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{83AA1851-4B04-4824-9437-228EEDC28ADF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{83AA1851-4B04-4824-9437-228EEDC28ADF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{918D3F24-E646-4ABB-973F-355AAE76B07B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{918D3F24-E646-4ABB-973F-355AAE76B07B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{918D3F24-E646-4ABB-973F-355AAE76B07B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{918D3F24-E646-4ABB-973F-355AAE76B07B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A8DC48B7-D976-4A44-90E7-743763687737}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A8DC48B7-D976-4A44-90E7-743763687737}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A8DC48B7-D976-4A44-90E7-743763687737}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A8DC48B7-D976-4A44-90E7-743763687737}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
